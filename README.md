@@ -33,13 +33,34 @@ The details to our proposed solution can be found [here](https://docs.google.com
 Follow the instructions below to setup the project on your local machine:
 
 ### Node-Red
+----------------------------
 
 ### Cloud Annotations
+----------------------------
+
+#### Setup
+`git clone` the repo and `cd` into it by running the following command:
+
+```bash
+git clone https://github.com/cloud-annotations/classification-react.git
+cd classification-react
+```
+
+#### `npm install`
+
+> Note: You’ll need to have Node 8.10.0 or later on your local development machine. You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
+
+#### Add TensorFlow.js Model to the App
+Copy the `model_web` directory generated from the classification walkthrough and paste it into the `public` folder of this repo.
+
+#### Run the App
+#### `npm start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### IBM Speech-To-Text
-
+----------------------------
 #### Setting Up IBM Cloud
----------------------------------------
 1. Sign up for an IBM Cloud account.
 2. Download the IBM Cloud CLI.
 3. Create an instance of the Speech to Text service and get your credentials:
@@ -51,16 +72,15 @@ Follow the instructions below to setup the project on your local machine:
     * Copy the `url` value.
   
 #### Setting Up on Local Machine
-----------------------------------------
 1. In the application folder, create a file called .env
 
 `touch .env`
 
-2. Open the .env file and add the service credentials that you obtained in the previous step.
+2. Open the .env file and add the service credentials that you obtained during the setting up of IBM Cloud.
 
 ```
-SPEECH_TO_TEXT_IAM_APIKEY={ *apikey* } 
-SPEECH_TO_TEXT_URL={url}
+SPEECH_TO_TEXT_IAM_APIKEY={ apikey } 
+SPEECH_TO_TEXT_URL={ url }
 ```
 
 **Example** .env file that configures the apikey and url for a Speech to Text service instance hosted in the US East region:
@@ -70,7 +90,6 @@ SPEECH_TO_TEXT_IAM_APIKEY=X4rbi8vwZmKpXfowaS3GAsA7vdy17Qh7km5D6EzKLHL2
 SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 ```
 #### Running on Local Machine
-------------------------------------------
 1. Install the necessary dpendencies
 `npm install`
 
@@ -80,8 +99,13 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 3. View the application in a browser at `localhost:3000`
 
 ## Libraries and Services Used
-
+----------------------------
 * IBM Cloud Annotations for Object Classification
 * IBM Speech-To-Text
+* IBM Watson Assistant
+* IBM Cloud for Node-Red Deployment 
 * Node-Red
 * ReactJS
+
+_____________________
+**Powered by IBM**
