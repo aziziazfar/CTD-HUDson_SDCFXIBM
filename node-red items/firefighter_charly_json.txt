@@ -1,0 +1,1 @@
+{"topic":"Charly","heart_rate":131,"body_temp":37.3,"respiration_rate":22,"SP_O2":93,"ambient_temp":95}

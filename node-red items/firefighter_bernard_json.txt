@@ -1,0 +1,1 @@
+{"topic":"Bernard","heart_rate":130,"body_temp":36.9,"respiration_rate":23,"SP_O2":94,"ambient_temp":87}
