@@ -24,11 +24,11 @@ It also consists of a HUD (Heads Up Display) to provide real-time feeds from the
 Do click below to watch our video, thank you!
 [![YouTube](./images/Youtube.png)](https://youtu.be/EKC40VrvaJc)
 
-## Project Architecture
-![Project Architecture](./images/ProjectArchitecture.png)
-
 ## Detailed Solution
 The details to our proposed solution can be found [here](https://docs.google.com/document/d/1du0OzhGNdTIKyl838Xxb77k3qJ4IGJGB11jquXxrRsU/edit?usp=sharing).
+
+## Project Architecture
+![Project Architecture](./images/ProjectArchitecture.png)
 
 ## Proposed Timeline
 ![Proposed Timleine](./images/ProposedTimeline.png)
