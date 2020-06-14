@@ -28,7 +28,7 @@ Do click below to watch our video, thank you!
 ![Project Architecture](./images/ProjectArchitecture.png)
 
 ## Detailed Solution
-The details to our proposed solution can be found [here](https://docs.google.com/presentation/d/118ZEW3oC22b5wW0z8rRuRln_HrM24JXRShlhw-pjIVY/edit?usp=sharing).
+The details to our proposed solution can be found [here](https://docs.google.com/document/d/1du0OzhGNdTIKyl838Xxb77k3qJ4IGJGB11jquXxrRsU/edit?usp=sharing).
 
 ## Proposed Timeline
 ![Proposed Timleine](./images/ProposedTimeline.png)
