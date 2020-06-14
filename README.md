@@ -25,7 +25,8 @@ It also consists of a HUD (Heads Up Display) to provide real-time feeds from the
 ## Detailed Solution
 The details to our proposed solution can be found [here](https://docs.google.com/presentation/d/118ZEW3oC22b5wW0z8rRuRln_HrM24JXRShlhw-pjIVY/edit?usp=sharing).
 
-## Project Roadmap
+## Proposed Timeline
+![Proposed Timleine](./images/ProposedTimeline.png)
 
 ## Getting Started
 
@@ -58,7 +59,7 @@ Follow the instructions below to setup the project on your local machine:
 2. Open the .env file and add the service credentials that you obtained in the previous step.
 
 ```
-SPEECH_TO_TEXT_IAM_APIKEY={apikey}
+SPEECH_TO_TEXT_IAM_APIKEY={ *apikey* } 
 SPEECH_TO_TEXT_URL={url}
 ```
 
@@ -79,3 +80,8 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 3. View the application in a browser at `localhost:3000`
 
 ## Libraries and Services Used
+
+* IBM Cloud Annotations for Object Classification
+* IBM Speech-To-Text
+* Node-Red
+* ReactJS
