@@ -1,8 +1,8 @@
 ![Title Header](./images/Header.png)
 
-## Team C T D
+## Team CTD
 
-C T D aspires to connect the dots and move mountains :sparkles: :sparkles: :sparkles:
+Team C T D aspires to connect the dots and move mountains :sparkles: :sparkles: :sparkles:
 
 * Sajjad Ali Qadri
 * Muhammad Hazzry Bin Shafaruan
@@ -36,28 +36,47 @@ Follow the instructions below to setup the project on your local machine:
 ### Node-Red
 ----------------------------
 
+1. Install node red for the machine you’re using using this website: https://nodered.org/docs/getting-started/
+2. Open command prompt/terminal and type the following commands 
+```
+npm install node-red-contrib-ui-media
+npm install node-red-dashboard
+```
+3. Then type node-red into terminal and navigate to localhost:1880 on web browser to go to node-red editor
+4. Click on 3 horizontal bars at top right hand corner to bring up context menu
+5. Click on import 
+6. Navigate to “node-red items” folder from cloned github repository
+7. Open node-red flow.txt file, select all and copy to the import panel in node-red editor, then click import flows
+8. Inside the node-red items folder, right click the “firefighter_ahamad_json.txt”, go to properties and get the full path of the file
+9. Double click firefighter_ahamad_json.txt node (usually in brown) and paste the path of the file
+10. Repeat with all other firefighter nodes
+11. Click on clip1 node (in blue), click Files tab, click the book looking thing, click `Add new…`, click `Choose Files`, navigate to `node-red items` folder from cloned github repository and select `clip_1`, click on the upload button next to the x button to upload  
+12. Repeat step K with `clip2 - clip4`  nodes  
+13. Click Deploy button on top right and go to `localhost:1880/ui` to see a rough preview of the UI that the ROTA commanders will see
+
+
 ### Cloud Annotations
 ----------------------------
 
 #### Setup
-`git clone` the repo and `cd` into it by running the following command:
+1. `git clone` the repo and `cd` into it by running the following command:
 
 ```bash
 git clone https://github.com/cloud-annotations/classification-react.git
 cd classification-react
 ```
 
-#### `npm install`
+2. Download the necessary dependencies for the project with the following command:
+`npm install`
 
 > Note: You’ll need to have Node 8.10.0 or later on your local development machine. You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
 
-#### Add TensorFlow.js Model to the App
-Copy the `model_web` directory generated from the classification walkthrough and paste it into the `public` folder of this repo.
+3. Add **TensorFlow.js Model** to the App by copying the `model_web` directory generated from the classification walkthrough and paste it into the `public` folder of this repo.
 
-#### Run the App
-#### `npm start`
+4. Run the App using the following command:
+`npm start`
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>Open [http://localhost:3000](https://docs.google.com/document/d/1du0OzhGNdTIKyl838Xxb77k3qJ4IGJGB11jquXxrRsU/edit?usp=sharing) to view it in the browser.
 
 ### IBM Speech-To-Text
 ----------------------------
@@ -94,7 +113,6 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 1. Install the necessary dpendencies
 `npm install`
 
-
 2. Run application
 `npm start`
 
@@ -108,6 +126,5 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 * IBM Cloud for Node-Red Deployment 
 * Node-Red
 * ReactJS
-
 _____________________
 **Powered by IBM**
