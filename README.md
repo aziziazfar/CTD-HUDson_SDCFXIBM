@@ -1,4 +1,4 @@
-# HUDson
+![Title Header](./images/Header.png)
 
 ## Team C T D
 
@@ -93,6 +93,7 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 #### Running on Local Machine
 1. Install the necessary dpendencies
 `npm install`
+
 
 2. Run application
 `npm start`
