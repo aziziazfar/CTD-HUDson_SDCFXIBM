@@ -1,4 +1,4 @@
-![Title Header](./images/Header2.png)
+![Title Header](./images/Header3.png)
 
 ## Team CTD
 
