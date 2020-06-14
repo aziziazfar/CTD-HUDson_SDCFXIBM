@@ -55,7 +55,7 @@ npm install node-red-dashboard
 9. Double click firefighter_ahamad_json.txt node (usually in brown) and paste the path of the file
 10. Repeat with all other firefighter nodes
 11. Click on clip1 node (in blue), click Files tab, click the book looking thing, click `Add new…`, click `Choose Files`, navigate to `node-red items` folder from cloned github repository and select `clip_1`, click on the upload button next to the x button to upload  
-12. Repeat step K with `clip2 - clip4`  nodes  
+12. Repeat **step 11** with `clip2 - clip4`  nodes  
 13. Click Deploy button on top right and go to `localhost:1880/ui` to see a rough preview of the UI that the ROTA commanders will see
 
 
