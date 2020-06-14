@@ -1,4 +1,8 @@
-******************************************************************************************************************************************************************************This will guide you through the process of viewing the node-red dashboard. I tried using electronJS to create a nifty little .exe file but failed to do so in the given time. The implemnentation of JSON files and objects is to prepare the system for integartion with a nosql database**********************************************************************************************************************************************************************
+##################################################################################################################
+This will guide you through the process of viewing the node-red dashboard. 
+I tried using electronJS to create a nifty little .exe file but failed to do so in the given time. 
+The implemnentation of JSON files and objects is to prepare the system for integartion with a nosql database
+###################################################################################################################
 
 pre-requisites:
 1.Download node.js via https://nodejs.org/en/download/
