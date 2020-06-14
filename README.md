@@ -4,9 +4,9 @@
 
 C T D aspires to connect the dots and move mountains :sparkles: :sparkles: :sparkles:
 
-* Sajjad Ali
-* Muhammad Hazzry
-* Azizi Azfar
+* Sajjad Ali Qadri
+* Muhammad Hazzry Bin Shafaruan
+* Azizi Azfar Bin Zahari
 
 ## Problems Identified
 1. Often times when someone realises that he is experiencing heat stroke, it is already too late.
@@ -23,6 +23,7 @@ It also consists of a HUD (Heads Up Display) to provide real-time feeds from the
 ## Project Architecture
 
 ## Detailed Solution
+The details to our proposed solution can be found [here](https://docs.google.com/presentation/d/118ZEW3oC22b5wW0z8rRuRln_HrM24JXRShlhw-pjIVY/edit?usp=sharing).
 
 ## Project Roadmap
 
@@ -76,3 +77,5 @@ SPEECH_TO_TEXT_URL=https://gateway-wdc.watsonplatform.net/speech-to-text/api
 `npm start`
 
 3. View the application in a browser at `localhost:3000`
+
+## Libraries and Services Used
