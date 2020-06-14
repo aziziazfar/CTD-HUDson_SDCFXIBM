@@ -21,6 +21,7 @@ The HUDson is an enhancement to the current bunker gear by integrating a wearabl
 It also consists of a HUD (Heads Up Display) to provide real-time feeds from these sensors to the user. The system is also connected to the cellular network to provide direct communications between the responders.
 
 ## Project Architecture
+![Project Architecture](./images/ProjectArchitecture.png)
 
 ## Detailed Solution
 The details to our proposed solution can be found [here](https://docs.google.com/presentation/d/118ZEW3oC22b5wW0z8rRuRln_HrM24JXRShlhw-pjIVY/edit?usp=sharing).
