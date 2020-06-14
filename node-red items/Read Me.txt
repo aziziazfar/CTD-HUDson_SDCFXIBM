@@ -1,0 +1,27 @@
+##################################################################################################################
+This will guide you through the process of viewing the node-red dashboard. 
+I tried using electronJS to create a nifty little .exe file but failed to do so in the given time. 
+The implemnentation of JSON files and objects is to prepare the system for integartion with a nosql database
+###################################################################################################################
+
+pre-requisites:
+1.Download node.js via https://nodejs.org/en/download/
+2.Download npm via https://www.npmjs.com/get-npm
+3.Clone the github repository https://github.com/aziziazfar/CTD-HUDson_SDCFXIBM.git
+
+Node-red:
+1.Install node red for the machine you’re using using this website: https://nodered.org/docs/getting-started/
+2.Open command prompt/terminal and type the following commands 
+3.npm install node-red-contrib-ui-media
+4.npm install node-red-dashboard
+5.Then type node-red into terminal and navigate to localhost:1880 on web browser to go to node-red editor
+6.Click on 3 horizontal bars at top right hand corner to bring up context menu
+7.Click on import 
+8.Navigate to “node-red items” folder from cloned github repository
+9.Open node-red flow.txt file, select all and copy to the import panel in node-red editor, then click import flows
+Inside the node-red items folder, right click the “firefighter_ahamad_json.txt”, go to properties and get the full path of the file
+10.Double click firefighter_ahamad_json.txt node (usually in brown) and paste the path of the file
+11.Repeat with all other firefighter nodes
+12.Click on clip1 node (in blue), click Files tab, click the book looking thing, click Add new…, click Choose Files, navigate to “node-red items” folder from cloned github repository and select clip_1, click on the upload button next to the x button to upload  
+13.Repeat step K with clip2 - clip4  nodes  
+14.Click Deploy button on top right and go to localhost:1880/ui to see a rough preview of the UI that the ROTA commanders will see
